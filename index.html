@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Weather Application</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="bi bi-geo-alt-fill"></i>
+            <input type="text" placeholder="Enter a Location">
+            <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+        </div>
+
+        <div class="not-found">
+            <img src="assets/img/notFound.jpg" alt="Couldn't find the Location">            
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="">
+            <p class="temperature"></p>
+            <p class="desc"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity"></div>
+            <i class="bi bi-water"></i>
+            <div class="text">
+                <span></span>
+                <p>Humidity</p>
+            </div>
+            <div class="wind"></div>
+            <i class="bi bi-wind"></i>
+            <div class="text">
+                <span></span>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
